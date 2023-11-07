@@ -1,0 +1,17 @@
+body{
+    background-image: url("./resources/bg.jpg"), url("./resources/bg-overlay.png");
+    background-blend-mode:overlay;
+    /* background-size: cover; */
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+    body{
+        background-image: url("./resources/bg.jpg"), url("./resources/bg-overlay.png");
+        background-blend-mode:overlay;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
