@@ -73,11 +73,14 @@ body{
     font-size: 0.7em;
     letter-spacing: 2px;    
 }
+.mygtukai > button:hover{
+    background-color: rgba(255, 255, 255, 0.516);
+    cursor: pointer;
+}
 .mygtukai > :nth-child(1){
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 .mygtukai > :nth-child(4){
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -91,5 +94,25 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
+    }
+    .tekstas{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .mygtukai{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mygtukai > button{
+        width: 100px;
+    }
+    .mygtukai > :nth-child(1){
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
+    .mygtukai > :nth-child(4){
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
     }
 }
