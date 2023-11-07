@@ -131,10 +131,10 @@ document.querySelector('#contact').addEventListener('click', () => {
     modalImage.setAttribute('src', './resources/tab-4.jpg');
 
     const modalParagraph1 = document.createElement('p');
-    const modalParagraph1Text = document.createTextNode('Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum repellat possimus, doloremque dolorum voluptatem dolore iusto quasi repudiandae tenetur. Ducimus, sapiente?');
+    const modalParagraph1Text = document.createTextNode('Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consectetur officiis rem pariatur, tempora delectus, asperiores itaque modi assumenda sapiente architecto dolorum soluta. Numquam, ipsam!');
     modalParagraph1.appendChild(modalParagraph1Text);
     const modalParagraph2 = document.createElement('p');
-    const modalParagraph2Text = document.createTextNode('Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum repellat possimus, doloremque dolorum voluptatem dolore iusto quasi repudiandae tenetur. Ducimus, sapiente?');
+    const modalParagraph2Text = document.createTextNode('Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consectetur officiis rem pariatur, tempora delectus, asperiores itaque modi assumenda sapiente architecto dolorum soluta. Numquam, ipsam!');
     modalParagraph2.appendChild(modalParagraph2Text);
 
     div2.append(modalImage, modalParagraph1, modalParagraph2);
