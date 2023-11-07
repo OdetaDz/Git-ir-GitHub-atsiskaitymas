@@ -20,7 +20,6 @@ body{
 .deimantas{
     display: flex;
     justify-content: center;
-    /* padding-top: 120px; */
 }
 .deimantas > img{
     width: 25px;
@@ -164,7 +163,6 @@ dialog > div:nth-child(2) > p{
         border-top-right-radius: 5px;
         border-bottom-left-radius: 0;
     }
-
     dialog > div:nth-child(2) > p{
         font-size: 0.9em;
     }
