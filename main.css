@@ -10,10 +10,17 @@ body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
 }
+.puslapis{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .deimantas{
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 .deimantas > img{
     width: 25px;
@@ -63,7 +70,7 @@ body{
 .mygtukai{
     display:flex;
     flex-direction: column;
-    margin: auto 5px;
+    width: 95%; 
 }
 .mygtukai > button{
     background-color: transparent;
@@ -71,7 +78,7 @@ body{
     padding: 10px;
     border: 1px solid white;
     font-size: 0.7em;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;
 }
 .mygtukai > button:hover{
     background-color: rgba(255, 255, 255, 0.516);
@@ -92,38 +99,38 @@ dialog{
     display: inline;
     width: 70%;
     border: none;
-  }
-  dialog > div:nth-child(1){
+}
+dialog > div:nth-child(1){
     display: flex;
     justify-content: space-between;
-  }
-  dialog > div:nth-child(1) > h1{
+}
+dialog > div:nth-child(1) > h1{
     margin-top: 0;
     font-size: 25px;
     font-weight: 400;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
-  }
-  dialog > div:nth-child(1) > img{
+}
+dialog > div:nth-child(1) > img{
     height: 30px;
     width: 30px;
-  }
-  dialog > div:nth-child(1) > img:hover{
+}
+dialog > div:nth-child(1) > img:hover{
     transform: rotate(90deg);
     transition: 1s;
     cursor: pointer;
-  }
-  dialog > div:nth-child(2){
+}
+dialog > div:nth-child(2){
     display: flex;
     flex-direction: column;
-  }
-  dialog > div:nth-child(2) > :nth-child(1){
+}
+dialog > div:nth-child(2) > :nth-child(1){
     width: 99%;
     height: 300px;
     object-fit: cover;
     object-position: center;
-  }
-  dialog > div:nth-child(2) > p{
+}
+dialog > div:nth-child(2) > p{
     font-size: 0.7em;
   }
 .openDialog{
