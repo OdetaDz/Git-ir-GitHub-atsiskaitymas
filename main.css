@@ -52,11 +52,11 @@ body{
     font-weight: 200;
     margin: 16px 7px;
 }
-.tekstas > p > span{
+.tekstas > p > a{
     text-decoration: underline;
     text-decoration-style: dotted;
 }
-.tekstas > p > span:hover{
+.tekstas > p > a:hover{
     color:rgb(0, 195, 255);
     cursor: pointer;
 }
